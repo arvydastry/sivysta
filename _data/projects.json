@@ -1,0 +1,594 @@
+{
+ "categories": [
+  {
+   "key": "gyvenamieji",
+   "label": "Gyvenamieji",
+   "service": "gyvenamuju-pastatu-statyba.html"
+  },
+  {
+   "key": "komerciniai",
+   "label": "Komerciniai",
+   "service": "komerciniu-pastatu-statyba.html"
+  },
+  {
+   "key": "pramoniniai",
+   "label": "Pramoniniai",
+   "service": "gamybiniu-pastatu-statyba.html"
+  },
+  {
+   "key": "gydymo",
+   "label": "Gydymo įstaigos",
+   "service": "viesosios-paskirties-pastatu-statyba.html"
+  },
+  {
+   "key": "paveldas",
+   "label": "Kultūros paveldo",
+   "service": "kulturos-paveldo-statiniu-statyba.html"
+  },
+  {
+   "key": "visuomeniniai",
+   "label": "Visuomeniniai",
+   "service": "viesosios-paskirties-pastatu-statyba.html"
+  }
+ ],
+ "done": [
+  {
+   "slug": "paupys-aukstaiciu-4",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis namas „Paupys“ I",
+   "place": "Aukštaičių g. 4, Vilnius",
+   "src": [
+    "2024-10-Daugiabutis-namas-Aukstaiciu-g.-4-Vilnius-PAUPYS.jpg",
+    "2024-10-Daugiabutis-namas-Aukstaiciu-g.-4-Vilnius-PAUPYS-2.jpg"
+   ]
+  },
+  {
+   "slug": "paupys-aukstaiciu-8",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis namas „Paupys“ II",
+   "place": "Aukštaičių g. 8, Vilnius",
+   "src": [
+    "2024-10-3_A8.jpg",
+    "2024-10-2_A8.jpg"
+   ]
+  },
+  {
+   "slug": "mi-druskininkai",
+   "cat": "gyvenamieji",
+   "title": "Apartamentų kompleksas „MI“",
+   "place": "Druskininkai",
+   "src": [
+    "2024-10-Drusk_1-e1614625917270.jpg",
+    "2024-10-Drusk_3.jpg"
+   ]
+  },
+  {
+   "slug": "dvibutis-vilnius",
+   "cat": "gyvenamieji",
+   "title": "Dvibutis gyvenamasis namas",
+   "place": "Vilnius",
+   "src": [
+    "2024-10-Untitled_Panorama15a-scaled.jpg",
+    "2024-10-Untitled_Panorama1a-e1614625411839.jpg"
+   ]
+  },
+  {
+   "slug": "grafu-rezidencija",
+   "cat": "gyvenamieji",
+   "title": "Daugiabučių namų „Grafų rezidencija“ rekonstrukcija",
+   "place": "Trakų g., Vilnius",
+   "src": [
+    "2024-10-Traku_1-e1614625528827.jpg",
+    "2024-10-Traku_5.png"
+   ]
+  },
+  {
+   "slug": "buto-remontas-stikliu",
+   "cat": "gyvenamieji",
+   "title": "Buto remonto darbai",
+   "place": "Stiklių g., Vilnius",
+   "src": [
+    "2024-11-stikli_g_1_20150223_1826082262-e1614625597806.jpg",
+    "2024-11-stikli_g_2_20150223_1294195287.jpg"
+   ]
+  },
+  {
+   "slug": "vienbutis-zolyno",
+   "cat": "gyvenamieji",
+   "title": "Vienbutis gyvenamasis namas",
+   "place": "Žolyno g., Vilnius",
+   "src": [
+    "2024-11-Zolyno_2-scaled.jpg",
+    "2024-11-zolyno_gatv_3_20121222_1244594816.jpg"
+   ]
+  },
+  {
+   "slug": "vienbutis-rutu",
+   "cat": "gyvenamieji",
+   "title": "Vienbutis gyvenamasis namas",
+   "place": "Rūtų g., Vilnius",
+   "src": [
+    "2024-11-RUTU-g.1-scaled.jpg",
+    "2024-11-rt_gatv_3_20121222_1421824880.jpg"
+   ]
+  },
+  {
+   "slug": "villa-a-city",
+   "cat": "gyvenamieji",
+   "title": "Prestižinių apartamentų ansamblis „Villa A City“",
+   "place": "Nemenčinės pl., Vilnius",
+   "src": [
+    "2024-11-Nemencines_6.jpg",
+    "2024-11-nemenins_plentas_1_20121222_1411787269.jpg"
+   ]
+  },
+  {
+   "slug": "vienbutis-naujakuriu",
+   "cat": "gyvenamieji",
+   "title": "Vienbutis gyvenamasis namas",
+   "place": "Naujakurių g., Vilnius",
+   "src": [
+    "2024-11-2-1.jpg",
+    "2024-11-naujakuri_gatv_1_20121222_1154687457.jpg"
+   ]
+  },
+  {
+   "slug": "slenio-vila",
+   "cat": "gyvenamieji",
+   "title": "Gyvenamasis namas „Slėnio vila“",
+   "place": "Pragiedrulių g., Vilnius",
+   "src": [
+    "2024-11-SAM_2198-scaled.jpg",
+    "2024-11-gyvenamasis_namas_pragiedruli_g_vilniuje_1_20160909_1514185430.jpg"
+   ]
+  },
+  {
+   "slug": "vienbutis-gelezinio-vilko",
+   "cat": "gyvenamieji",
+   "title": "Vienbutis gyvenamasis namas",
+   "place": "Geležinio Vilko g., Vilnius",
+   "src": [
+    "2024-11-Gelezinio-Vilko_2-scaled.jpg",
+    "2024-11-Geleinio-Vilko_1-e1503579323833.jpg"
+   ]
+  },
+  {
+   "slug": "vienbutis-vilnius",
+   "cat": "gyvenamieji",
+   "title": "Vienbutis gyvenamasis namas",
+   "place": "Vilnius",
+   "src": [
+    "2024-11-2.jpg",
+    "2024-11-1.jpg"
+   ]
+  },
+  {
+   "slug": "heima-g18",
+   "cat": "gyvenamieji",
+   "title": "Gyvenamasis namas „Heima G18“",
+   "place": "Vilnius",
+   "credit": "Nuotr. Norbert Tukaj",
+   "src": [
+    "2025-01-Heima-G18-©Norbert-Tukaj-2068-scaled.jpg",
+    "2025-01-02-Heima-G18-©Norbert-Tukaj-1916-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "nugaletoju-34",
+   "cat": "gyvenamieji",
+   "title": "Gyvenamasis namas",
+   "place": "Nugalėtojų g. 34, Vilnius",
+   "credit": "Nuotr. Andrius Laucius",
+   "src": [
+    "2025-01-Nugaletoju-g.-34-Ⓒ-Andrius-Laucius-105.jpg",
+    "2025-01-Nugaletoju-g.-34-Ⓒ-Andrius-Laucius-14.jpg"
+   ]
+  },
+  {
+   "slug": "poskos-19",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis gyvenamasis namas",
+   "place": "D. Poškos g. 19, Vilnius",
+   "src": [
+    "2026-02-Poskos-19_1-scaled.jpg",
+    "2026-02-Poskos-19_2.jpg"
+   ]
+  },
+  {
+   "slug": "birutes-2c",
+   "cat": "gyvenamieji",
+   "title": "Vienbutis gyvenamasis namas",
+   "place": "Birutės g. 2C, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "rukeliskiu-9",
+   "cat": "gyvenamieji",
+   "title": "Vienbutis gyvenamasis namas",
+   "place": "Rukeliškių g. 9, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "tilto-9",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis gyvenamasis namas",
+   "place": "Tilto g. 9, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "paneriu-admin",
+   "cat": "komerciniai",
+   "title": "Administracinis pastatas su automobilių stovėjimo aikštele",
+   "place": "Panerių g., Vilnius",
+   "src": [
+    "2024-10-Administracinis-pastatas-su-automobiliu-stovejimo-aikstele-Paneriu-g.-Vilniuje.jpg",
+    "2024-10-Administracinis-pastatas-su-automobiliu-stovejimo-aikstele-Paneriu-g.-Vilniuje-2.jpg"
+   ]
+  },
+  {
+   "slug": "subaciaus-rekonstrukcija",
+   "cat": "komerciniai",
+   "title": "Administracinių patalpų rekonstrukcija",
+   "place": "Subačiaus g., Vilnius",
+   "src": [
+    "2024-10-Subaciaus_1.jpg",
+    "2024-10-Subaciaus_13.jpg"
+   ]
+  },
+  {
+   "slug": "lt-atstovybe-es",
+   "cat": "komerciniai",
+   "title": "Lietuvos nuolatinė atstovybė Europos Sąjungoje",
+   "place": "Briuselis, Belgija",
+   "src": [
+    "2024-10-briuselis_3_20130321_1226518445.jpg",
+    "2024-10-briuselis_9_20130321_1536069593.jpg"
+   ]
+  },
+  {
+   "slug": "subaciaus-admin",
+   "cat": "komerciniai",
+   "title": "Administracinis pastatas",
+   "place": "Subačiaus g., Vilnius",
+   "src": [
+    "2024-10-ERNST-YOUNG-2-scaled.jpg",
+    "2024-10-ERNST-YOUNG-3-e1503901685266.jpg"
+   ]
+  },
+  {
+   "slug": "aukstaiciu-admin",
+   "cat": "komerciniai",
+   "title": "Administracinis pastatas",
+   "place": "Aukštaičių g., Vilnius",
+   "src": [
+    "2024-10-Aukstaiciu_2-scaled.jpg",
+    "2024-10-Aukstaiciu_3-e1503899514102.jpg"
+   ]
+  },
+  {
+   "slug": "ambasada-estija",
+   "cat": "komerciniai",
+   "title": "Lietuvos Respublikos ambasada Estijoje",
+   "place": "Talinas, Estija",
+   "src": [
+    "2024-11-lr_ambasada_1_20150922_1369758834.jpg",
+    "2024-11-lr_ambasada_2_20150922_1107637358.jpeg"
+   ]
+  },
+  {
+   "slug": "admin-vilnius",
+   "cat": "komerciniai",
+   "title": "Administracinis pastatas",
+   "place": "Vilnius",
+   "src": [
+    "2024-10-Viln_1-e1524474527637.jpg",
+    "2024-10-Viln_2-e1524474588739.jpg"
+   ]
+  },
+  {
+   "slug": "tilzes-86-klaipeda",
+   "cat": "komerciniai",
+   "title": "Sandėliavimo, paslaugų ir transporto paskirties pastatų kompleksas",
+   "place": "Tilžės g. 86, Klaipėda",
+   "src": [
+    "2024-11-DJI_0485-scaled.jpg",
+    "2024-11-DJI_0525-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "ukmerges-451",
+   "cat": "komerciniai",
+   "title": "Paslaugų paskirties pastatas su sandėliavimo patalpomis",
+   "place": "Ukmergės g. 451, Vilniaus r.",
+   "src": [
+    "2026-02-UKMERGES-451_2-scaled.jpg",
+    "2026-02-UKMERGES-451_1.jpg"
+   ]
+  },
+  {
+   "slug": "vilniaus-37",
+   "cat": "komerciniai",
+   "title": "Administracinės paskirties pastatas",
+   "place": "Vilniaus g. 37, Vilnius",
+   "src": [
+    "2024-10-1-scaled.jpg",
+    "2024-10-3-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "lenktoji-34",
+   "cat": "komerciniai",
+   "title": "Prekybos paskirties pastatas su administracinėmis patalpomis",
+   "place": "Lenktoji g. 34, Vilnius",
+   "src": [
+    "2024-10-A146-Lenktoji-34-Iejimas-.png",
+    "2024-10-A146_viz-03-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "lapiu-3",
+   "cat": "komerciniai",
+   "title": "Administracinės paskirties pastatas",
+   "place": "Lapių g. 3, Vilnius",
+   "src": [
+    "2024-10-V1-final_FIX-scaled.jpg",
+    "2024-10-V3-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "aukstaiciu-2",
+   "cat": "komerciniai",
+   "title": "Administracinės paskirties pastatas",
+   "place": "Aukštaičių g. 2, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "nemencine-sandelis",
+   "cat": "pramoniniai",
+   "title": "Sandėlis su biuro ir gamyklos patalpomis",
+   "place": "Nemenčinė, Vilniaus r.",
+   "src": [
+    "2024-10-Sandelis-su-biuro-ir-gamyklos-patalpomis-Nemencineje-Vilniaus-r.jpg",
+    "2024-10-Sandelis-su-biuro-ir-gamyklos-patalpomis-Nemencineje-Vilniaus-r.-2.jpg"
+   ]
+  },
+  {
+   "slug": "sausiu-logistika",
+   "cat": "pramoniniai",
+   "title": "Logistikos centras su biuro patalpomis",
+   "place": "Saušių k., Vilniaus r.",
+   "src": [
+    "2024-10-Logistikos-centras-su-biuro-patalpomis-Sausiu-k.-Vilniaus-r.jpg",
+    "2024-10-Logistikos-centras-su-biuro-patalpomis-Sausiu-k.-Vilniaus-r.-2.jpg"
+   ]
+  },
+  {
+   "slug": "moluvenai-sandelis",
+   "cat": "pramoniniai",
+   "title": "Sandėlis su biuro patalpomis",
+   "place": "Moluvėnų k., Trakų r.",
+   "src": [
+    "2024-10-Sandelis-su-biuro-patalpomis-Moluvenu-k.-Traku-r.jpg",
+    "2024-10-Sandelis-su-biuro-patalpomis-Moluvenu-k.-Traku-r.-2.jpg"
+   ]
+  },
+  {
+   "slug": "kaunas-servisas",
+   "cat": "pramoniniai",
+   "title": "Sunkiojo transporto aptarnavimo centras su administracinėmis patalpomis",
+   "place": "Kaunas",
+   "src": [
+    "2024-10-DSC_2884-e1506080181917.jpg"
+   ]
+  },
+  {
+   "slug": "skaidiskes",
+   "cat": "pramoniniai",
+   "title": "Pramoninis ir administracinis pastatas",
+   "place": "Skaidiškės, Vilniaus r.",
+   "src": [
+    "2024-10-SKAIDISKES-1.jpg",
+    "2024-10-skaidisks_2_20121222_1645520061.jpg"
+   ]
+  },
+  {
+   "slug": "maisines-sandelis",
+   "cat": "pramoniniai",
+   "title": "Sandėlis su gamybinėmis patalpomis",
+   "place": "Maišinės k., Trakų r.",
+   "src": [
+    "2024-10-maisyns_km_3_20131022_1309941624.jpg",
+    "2024-10-maisyns_km_5_20131022_1672239751-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "nemezis-sandelis",
+   "cat": "pramoniniai",
+   "title": "Sandėlio statybos projektas",
+   "place": "Nemėžio k., Vilniaus r.",
+   "src": [
+    "2025-01-IMG-20240821-WA00061.jpg",
+    "2025-01-IMG-20240821-WA00081.jpg"
+   ]
+  },
+  {
+   "slug": "baltijos-amerikos-klinika",
+   "cat": "gydymo",
+   "title": "Baltijos ir Amerikos klinika",
+   "place": "Nemenčinės pl. 54A, Vilnius",
+   "src": [
+    "2024-10-Baltijos-ir-Amerikos-klinika-e1503645675217.jpg",
+    "2024-10-baltijos_amerikos_klinika_4_20121222_1381544627.jpg"
+   ]
+  },
+  {
+   "slug": "reanimacijos-skyrius",
+   "cat": "gydymo",
+   "title": "Reanimacijos ir intensyviosios terapijos II skyrius (B korpusas)",
+   "place": "Šiltnamių g. 29, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "liejyklos-8",
+   "cat": "paveldas",
+   "title": "Administracinio pastato rekonstrukcija",
+   "place": "Liejyklos g. 8, Vilnius",
+   "src": [
+    "2024-11-Pastato-fasadas-2-scaled.jpg",
+    "2024-11-Vidinis-kiemelis-su-biuru-terasomis-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "sv-jonu-varpine",
+   "cat": "paveldas",
+   "title": "Šv. Jonų bažnyčios varpinės rekonstrukcija",
+   "place": "Šv. Jono g., Vilnius",
+   "src": [
+    "2024-10-vilniaus_universiteto_varpin_1_20121222_1998177169.jpg",
+    "2024-10-vilniaus_universiteto_varpin_3_20121222_1841568261.jpg"
+   ]
+  },
+  {
+   "slug": "subaciaus-5",
+   "cat": "paveldas",
+   "title": "Administracinis pastatas",
+   "place": "Subačiaus g. 5, Vilnius",
+   "src": [
+    "2024-10-subaiaus_g_5_3_20130220_1119098698.jpg",
+    "2024-10-subaiaus_g_5_1_20130220_1373530655.jpg"
+   ]
+  },
+  {
+   "slug": "tiskeviciaus-rumai",
+   "cat": "paveldas",
+   "title": "Jono Juozapo Tiškevičiaus rūmų tvarkyba ir rekonstravimas",
+   "place": "Žygimantų g. 3, Vilnius",
+   "src": [
+    "2025-01-0000-scaled.jpg",
+    "2025-01-0009.jpg"
+   ]
+  },
+  {
+   "slug": "vu-biblioteka",
+   "cat": "visuomeniniai",
+   "title": "Vilniaus universiteto bibliotekos rekonstrukcija",
+   "place": "Vilnius",
+   "src": [
+    "2024-10-vilniaus_universiteto_biblioteka_1_20121222_1893509156.jpg",
+    "2024-10-vilniaus_universiteto_biblioteka_6_20121222_2065528830.jpg"
+   ]
+  },
+  {
+   "slug": "british-school",
+   "cat": "visuomeniniai",
+   "title": "Administracinis pastatas su mokslo patalpomis",
+   "place": "Vilnius",
+   "credit": "Nuotr. Norbert Tukaj",
+   "src": [
+    "2024-11-2Larchitects-TheBritishSchoolofVilnius-©Norbert-Tukaj-5066-scaled.jpg",
+    "2024-11-1-1-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "jezuitu-gimnazija",
+   "cat": "visuomeniniai",
+   "title": "Vilniaus jėzuitų gimnazija",
+   "place": "Vilnius",
+   "src": []
+  }
+ ],
+ "ongoing": [
+  {
+   "slug": "lusiu-20",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis gyvenamasis namas",
+   "place": "Lūšių g. 20, Vilnius",
+   "src": [
+    "2025-10-01-2-Copy.jpg",
+    "2025-10-03_2-1.jpg"
+   ]
+  },
+  {
+   "slug": "fortu-10-alytus",
+   "cat": "pramoniniai",
+   "title": "Sandėliavimo paskirties pastatas su administracinėmis patalpomis",
+   "place": "Fortų g. 10, Alytus",
+   "src": [
+    "2026-03-1-scaled.jpg",
+    "2026-03-2-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "paneriu-49",
+   "cat": "komerciniai",
+   "title": "Administracinės paskirties pastatas",
+   "place": "Panerių g. 49, Vilnius",
+   "src": [
+    "2026-09-Paneriu49_22-scaled.jpg"
+   ]
+  },
+  {
+   "slug": "latezerio-15",
+   "cat": "gyvenamieji",
+   "title": "Vienbutis gyvenamasis namas",
+   "place": "Latežerio g. 15, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "tilto-11",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis gyvenamasis namas",
+   "place": "Tilto g. 11, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "odminiu-10",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis gyvenamasis namas",
+   "place": "Odminių g. 10, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "lauksargio-53",
+   "cat": "gyvenamieji",
+   "title": "Vienbutis gyvenamasis namas",
+   "place": "Lauksargio g. 53, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "mozuriskiu-6",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis gyvenamasis namas",
+   "place": "Mozūriškių g. 6, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "stulginskio-8",
+   "cat": "komerciniai",
+   "title": "Pramogų centro pastatas",
+   "place": "Stulginskio g. 8, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "uzupio-25",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis gyvenamasis namas",
+   "place": "Užupio g. 25, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "liepkalnio-160c",
+   "cat": "komerciniai",
+   "title": "Duomenų centro pastatas",
+   "place": "Liepkalnio g. 160C, Vilnius",
+   "src": []
+  },
+  {
+   "slug": "tilto-9-11",
+   "cat": "gyvenamieji",
+   "title": "Daugiabutis gyvenamasis namas",
+   "place": "Tilto g. 9/11, Vilnius",
+   "src": []
+  }
+ ]
+}

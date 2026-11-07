@@ -1,0 +1,286 @@
+<!--meta {"title": "SiVySta | Statybos ir rekonstrukcijos paslaugos, generalinė ranga Vilniuje", "description": "UAB SiVySta – patikima statybos ir rekonstrukcijos partnerė nuo 2002 m. Gyvenamųjų, komercinių, gamybinių, viešosios paskirties ir kultūros paveldo pastatų statyba Lietuvoje ir užsienyje.", "nav": "home", "body_class": "page-home", "header": "transparent", "og_image": "assets/img/photos/hero-poster.jpg"} -->
+
+<!-- Hero: Salient Row su Self Hosted Video fonu + Animated Text + Milestone juosta -->
+<section class="hero" data-parallax-ref>
+  <div class="hero__media">
+    <video id="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/img/photos/hero-poster.jpg">
+      <source src="assets/video/hero.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="container hero__content">
+    <p class="hero__kicker" data-reveal="fade"><span class="dot" aria-hidden="true"></span> Generalinė ranga ir statyba nuo 2002 m.</p>
+    <h1 class="hero__title" data-split>Kokybė, kuria galite <em>pasitikėti</em></h1>
+    <p class="hero__lead" data-reveal style="--d:.35s">Jūsų patikima partnerė, teikianti statybos ir rekonstrukcijos paslaugas, orientuotas į kokybę ir inovacijas. Gyvenamieji, komerciniai, gamybiniai, viešosios paskirties ir kultūros paveldo pastatai.</p>
+    <div class="btn-row" data-reveal style="--d:.5s">
+      <a class="btn btn--orange btn--lg" href="kontaktai.html">Pastatykime svajonę kartu <svg class="i i--arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn--light btn--lg" href="igyvendinti-projektai.html">Įgyvendinti projektai</a>
+    </div>
+  </div>
+  <div class="hero__stats">
+    <button class="icon-btn hero__video-btn" type="button" data-video-toggle="#hero-video" data-label-pause="Sustabdyti fono vaizdo įrašą" data-label-play="Paleisti fono vaizdo įrašą" aria-label="Sustabdyti fono vaizdo įrašą" style="background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.25);color:#fff">
+      <svg class="i i-pause" aria-hidden="true"><use href="#i-pause"/></svg><svg class="i i-play" aria-hidden="true"><use href="#i-play"/></svg>
+    </button>
+    <div class="container hero__stats-inner" data-stagger="0.12">
+      <div class="hero__stat" data-reveal><b>2002</b><span>Veiklos pradžia, gegužės 16 d.</span></div>
+      <div class="hero__stat" data-reveal><b><span data-count="20" data-plain>0</span>+ metų</b><span>Patirtis statybų rinkoje</span></div>
+      <div class="hero__stat" data-reveal><b>6 kryptys</b><span>Nuo privačių namų iki paveldo</span></div>
+      <div class="hero__stat" data-reveal><b>3 ISO</b><span>9001 · 14001 · 45001 sertifikuota vadyba</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Įžanga: antraštė su įterptu video + slenkant išsiplečianti video scena + faktai
+  Salient 18.2.1:
+  1) Row (In Container). Inner Row 2 Columns: Text Block (eyebrow) | Text Block (objektų sąrašas); po jos Divider (Line Type Full Width, 1px, Animate Line, delay 200 ms).
+     Inner Row 7/12 + 5/12: Text With Inline Media (h2, Media Type: Videos, 1 MP4 pill-concrete.mp4, Roundness pill; video įterpimams įėjimo animacijos nėra,
+     todėl visam stulpeliui Column Animation: Slight Fade In From Bottom) | Text Block (lead, tekstas) + Button (Basic, Pill, ink) + Button (Arrow Animation).
+  2) Row (Full Width Background, Row ID ix-stage): Video Background aerial-site.mp4 + Video Preview Image, Color Overlay (gradientas),
+     Background Layer Animation: Clip Path Inset, Animation Type: Scroll Position, Applies To: Entire Row, Roundness 20px,
+     Inset Start T/B 4 %, L/R pagal įrenginį (≈100px @1440 = konteinerio kraštas; laptop ≈4 %), Inset End 14px; Disable Background Layer Animation on Mobile.
+     Turinys: Column (Flexbox, Justify End): Text Block (teiginys) + Inner Row 2 Columns su Column Link (48+ → įgyvendinti, 12 → vykdomi).
+  3) Row (In Container): Text Block (eyebrow) + Inner Row 4 Columns; kiekvieno stulpelio pirmas elementas – Divider (Full Width, 1px, Animate Line, delay 0/90/180/270 ms),
+     Text Block (numeris, h3, p); Column Animation: Slight Fade In From Bottom.
+  4) Pauzės mygtukas (WCAG 2.2.2): NE natyvus. Raw HTML button[data-video-toggle="#ix-stage .nectar-video-wrap video"] Row viduje (absoliuti pozicija) +
+     Theme Options → Custom JS (main.js [data-video-toggle] logika: būsena iš play/pause įvykių, data-user-paused / data-user-played). -->
+<section class="section section--white ix-intro" data-ix-expand aria-labelledby="ix-intro-title">
+  <div class="container">
+    <div class="ix-intro__rule" data-reveal="fade">
+      <p class="eyebrow">Apie SiVySta</p>
+      <p class="ix-intro__places"><b>Mūsų objektai</b> Vilniuje, Kaune, Klaipėdoje, Alytuje, Druskininkuose, Briuselyje ir Taline</p>
+    </div>
+    <div class="ix-intro__head">
+      <h2 class="ix-intro__title" id="ix-intro-title" data-reveal>Projektuojame, statome <span class="ix-pill" style="background-image:url(assets/video/posters/concrete.jpg)" aria-hidden="true"><video src="assets/video/pill-concrete.mp4" muted loop playsinline preload="none" data-autoplay aria-hidden="true"></video></span> ir <em>atsakome už rezultatą</em></h2>
+      <div data-reveal>
+        <p class="ix-intro__lead">UAB „SiVySta“ – tai daugiau nei statybų įmonė; tai patikima partnerė, vienijanti profesionalų komandą, turinčią daugiau nei du dešimtmečius patirties.</p>
+        <p class="ix-intro__text">Projektavimas, statyba ir inžinerinės sistemos vienose rankose: nuo leidimų iki objekto perdavimo ir garantinės priežiūros.</p>
+        <div class="btn-row">
+          <a class="btn btn--ink" href="apie-mus.html">Daugiau apie mus</a>
+          <a class="link-arrow" href="paslaugos.html#generaline-ranga">Generalinė ranga <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ix-intro__stage" data-ix-stage>
+    <div class="ix-intro__media" style="background-image:url(assets/video/posters/aerial-site.jpg)" aria-hidden="true">
+      <video id="intro-video" src="assets/video/aerial-site.mp4" poster="assets/video/posters/aerial-site.jpg" muted loop playsinline preload="none" data-autoplay aria-hidden="true"></video>
+    </div>
+    <button class="icon-btn ix-intro__toggle" type="button" data-video-toggle="#intro-video" data-label-pause="Sustabdyti įžangos vaizdo įrašą" data-label-play="Paleisti įžangos vaizdo įrašą" aria-label="Sustabdyti įžangos vaizdo įrašą">
+      <svg class="i i-pause" aria-hidden="true"><use href="#i-pause"/></svg><svg class="i i-play" aria-hidden="true"><use href="#i-play"/></svg>
+    </button>
+    <div class="ix-intro__over">
+      <p class="ix-intro__claim" data-reveal>Vienas atsakingas generalinis rangovas <em>Lietuvoje ir užsienyje</em></p>
+      <div class="ix-intro__nums" data-stagger="0.12">
+        <a class="ix-intro__num" href="igyvendinti-projektai.html" data-reveal><b>48+</b><span>įgyvendinti projektai Lietuvoje, Belgijoje ir Estijoje <i aria-hidden="true">→</i></span></a>
+        <a class="ix-intro__num" href="vykdomi-projektai.html" data-reveal><b>12</b><span>vykdomų projektų Vilniuje ir Alytuje <i aria-hidden="true">→</i></span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p class="eyebrow ix-intro__why" data-reveal="fade">Kodėl mumis pasitiki</p>
+    <ol class="ix-intro__facts" data-stagger="0.09">
+      <li class="ix-intro__fact" data-reveal>
+        <span class="ix-intro__idx" aria-hidden="true">01</span>
+        <h3>Generalinė ranga</h3>
+        <p>Koordinuojame subrangovus, tiekėjus, terminus ir dokumentaciją, kad statyba vyktų sklandžiai ir laiku.</p>
+      </li>
+      <li class="ix-intro__fact" data-reveal>
+        <span class="ix-intro__idx" aria-hidden="true">02</span>
+        <h3>Atestuota komanda</h3>
+        <p>Atestuoti vadovai ir kvalifikuoti darbininkai užtikrina darbų kokybę ir projektų valdymo efektyvumą.</p>
+      </li>
+      <li class="ix-intro__fact" data-reveal>
+        <span class="ix-intro__idx" aria-hidden="true">03</span>
+        <h3>Tarptautinės praktikos</h3>
+        <p>Užsienyje įgyvendinti projektai leidžia taikyti geriausias tarptautines statybų sektoriaus praktikas ir Lietuvoje.</p>
+      </li>
+      <li class="ix-intro__fact" data-reveal>
+        <span class="ix-intro__idx" aria-hidden="true">04</span>
+        <h3>Garantija pagal įstatymą</h3>
+        <p>Kiekvienam projektui suteikiame garantiją, atitinkančią Lietuvos Respublikos statybos įstatymus.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- Paslaugos: Fancy Box – Parallax Hover tinklelis (numeriai vietoje ikonų) -->
+<section class="section" id="paslaugos">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-head__main">
+        <p class="eyebrow" data-reveal="fade">Galime padėti</p>
+        <h2 data-split>Mūsų <em>paslaugos</em></h2>
+        <p class="lead" data-reveal>Nuo kultūros paveldo objektų rekonstrukcijos iki gyvenamųjų, komercinių, gamybinių ir viešosios paskirties pastatų statybos.</p>
+      </div>
+      <div class="section-head__aside" data-reveal><a class="btn btn--ghost" href="paslaugos.html">Visos paslaugos</a></div>
+    </div>
+    <div class="svc-grid" data-stagger="0.08">
+      <a class="svc" href="gyvenamuju-pastatu-statyba.html" data-reveal data-tilt="5">
+        <div class="svc__bg"><img src="assets/img/projects/nugaletoju-34.jpg" alt="" loading="lazy"></div>
+        <div class="svc__body"><span class="svc__num">01</span><h3 class="svc__title">Gyvenamųjų pastatų statyba</h3><p class="svc__text">Individualūs namai ir daugiabučiai nuo projekto iki raktų: pamatai, konstrukcijos, inžinerinės sistemos, apdaila ir aplinka.</p><span class="svc__more">Plačiau <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="svc" href="komerciniu-pastatu-statyba.html" data-reveal data-tilt="5">
+        <div class="svc__bg"><img src="assets/img/photos/render-biurai.jpg" alt="" loading="lazy"></div>
+        <div class="svc__body"><span class="svc__num">02</span><h3 class="svc__title">Komercinių pastatų statyba</h3><p class="svc__text">Biurų, prekybos, paslaugų ir viešbučių pastatai, atitinkantys verslo poreikius, efektyvumą ir estetiką.</p><span class="svc__more">Plačiau <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="svc" href="kulturos-paveldo-statiniu-statyba.html" data-reveal data-tilt="5">
+        <div class="svc__bg"><img src="assets/img/projects/tiskeviciaus-rumai.jpg" alt="" loading="lazy"></div>
+        <div class="svc__body"><span class="svc__num">03</span><h3 class="svc__title">Kultūros paveldo statinių statyba</h3><p class="svc__text">Istorinių objektų restauracija ir rekonstrukcija, išsaugant autentiškumą ir pritaikant šiuolaikiniams poreikiams.</p><span class="svc__more">Plačiau <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="svc" href="viesosios-paskirties-pastatu-statyba.html" data-reveal data-tilt="5">
+        <div class="svc__bg"><img src="assets/img/photos/british-school.jpg" alt="" loading="lazy"></div>
+        <div class="svc__body"><span class="svc__num">04</span><h3 class="svc__title">Viešosios paskirties pastatų statyba</h3><p class="svc__text">Mokyklos, gydymo įstaigos, kultūros centrai ir sporto kompleksai, kuriuose patogu ir saugu dirbti, mokytis ar ilsėtis.</p><span class="svc__more">Plačiau <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="svc" href="gamybiniu-pastatu-statyba.html" data-reveal data-tilt="5">
+        <div class="svc__bg"><img src="assets/img/photos/render-sandelis.jpg" alt="" loading="lazy"></div>
+        <div class="svc__body"><span class="svc__num">05</span><h3 class="svc__title">Gamybinių pastatų statyba</h3><p class="svc__text">Gamyklos, sandėliai, logistikos centrai ir dirbtuvės, suprojektuoti pagal technologinius ir saugos reikalavimus.</p><span class="svc__more">Plačiau <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="svc svc--dark" href="paslaugos.html#generaline-ranga" data-reveal data-tilt="5">
+        <div class="svc__bg"><video src="assets/video/architects.mp4" poster="assets/video/posters/architects.jpg" muted loop playsinline preload="none" data-autoplay aria-hidden="true" style="width:100%;height:100%;object-fit:cover"></video></div>
+        <div class="svc__body"><span class="svc__num">06</span><h3 class="svc__title">Generalinė ranga ir projektavimas</h3><p class="svc__text">Vienas atsakingas partneris visam procesui: projektas, leidimai, subrangovai, tiekimas, terminai ir perdavimas.</p><span class="svc__more">Plačiau <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Kodėl mes: Row su video fonu + punktai (Salient: Row Self Hosted Video background) -->
+<section class="band" data-parallax-ref>
+  <div class="band__video" aria-hidden="true"><video src="assets/video/steel-frames.mp4" poster="assets/video/posters/steel-frames.jpg" muted loop playsinline preload="none" data-autoplay></video></div>
+  <div class="container band__inner">
+    <div>
+      <p class="eyebrow" data-reveal="fade">Patirtis ir standartai</p>
+      <h2 data-split>Kokybė, patvirtinta <em>sertifikatais ir darbais</em></h2>
+      <p class="lead" data-reveal>Atsakingas požiūris į kiekvieną projektą leido užsitikrinti klientų, partnerių bei suinteresuotų šalių pasitikėjimą.</p>
+      <div class="btn-row" data-reveal style="margin-top:1.8rem">
+        <a class="btn btn--orange" href="igyvendinti-projektai.html">Įgyvendinti projektai <svg class="i i--arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--light" href="apie-mus.html">Įmonės istorija</a>
+      </div>
+    </div>
+    <div class="points points--1" data-stagger="0.1">
+      <div class="point" data-reveal><span class="point__num">Kokybė ir inovacijos</span><h3>Pažangios technologijos kiekviename objekte</h3><p>Diegiame technologijas, kurios taupo klientų laiką ir išteklius bei užtikrina projekto vykdymo tikslumą. Rinkos analizė ir grįžtamasis ryšys padeda nuolat tobulėti.</p></div>
+      <div class="point" data-reveal><span class="point__num">Tarptautiniai standartai</span><h3>ISO 9001 · ISO 14001 · ISO 45001</h3><p>Kokybės, aplinkos apsaugos ir darbuotojų saugos vadybos sistemos. Teisė būti ypatingo statinio statybos rangovu.</p></div>
+      <div class="point" data-reveal><span class="point__num">Patirtis</span><h3>Nuo butų iki ambasadų</h3><p>Lietuvos nuolatinė atstovybė ES Briuselyje, ambasada Taline, Vilniaus universiteto biblioteka, Tiškevičiaus rūmai, Baltijos ir Amerikos klinika.</p></div>
+      <div class="point" data-reveal><span class="point__num">Pripažinimas</span><h3>„Gazelė 2016“</h3><p>Apdovanojimas tarp sparčiausiai augančių bendrovių Lietuvoje.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Išskirtiniai projektai -->
+<section class="section section--white">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-head__main">
+        <p class="eyebrow" data-reveal="fade">Portfelis</p>
+        <h2 data-split>Išskirtiniai <em>projektai</em></h2>
+        <p class="lead" data-reveal>Keli darbai, kuriais didžiuojamės labiausiai. Visas portfelis pagal paskirtį: gyvenamieji, komerciniai, pramoniniai, gydymo įstaigos, kultūros paveldo ir visuomeniniai objektai.</p>
+      </div>
+      <div class="section-head__aside" data-reveal><a class="btn btn--ghost" href="igyvendinti-projektai.html">Visi įgyvendinti projektai</a></div>
+    </div>
+    <div class="pgrid pgrid--featured" data-stagger="0.08">
+{{projects:home}}
+    </div>
+  </div>
+</section>
+
+<!-- Procesas: Sticky Content Sections su video -->
+<section class="section">
+  <div class="container">
+    <div class="section-head section-head--stack">
+      <div class="section-head__main">
+        <p class="eyebrow" data-reveal="fade">Kaip dirbame</p>
+        <h2 data-split>Nuo idėjos iki <em>objekto perdavimo</em></h2>
+      </div>
+    </div>
+    <div class="process" data-process>
+      <div class="process__media" data-reveal="scale">
+        <video src="assets/video/architects.mp4" poster="assets/video/posters/architects.jpg" muted loop playsinline preload="none"></video>
+        <video src="assets/video/blueprint.mp4" poster="assets/video/posters/blueprint.jpg" muted loop playsinline preload="none"></video>
+        <video src="assets/video/concrete.mp4" poster="assets/video/posters/concrete.jpg" muted loop playsinline preload="none"></video>
+        <video src="assets/video/builders.mp4" poster="assets/video/posters/builders.jpg" muted loop playsinline preload="none"></video>
+        <span class="process__media-label tag tag--glass">Statybos procesas</span>
+      </div>
+      <div class="process__steps">
+        <div class="step">
+          <span class="step__num">01</span>
+          <div>
+            <h3>Projekto analizė ir pasiūlymas</h3>
+            <p>Įsigiliname į užsakovo tikslus, atliekame detalią projekto analizę, įvertiname apimtį, terminus ir biudžetą. Pateikiame aiškų, argumentuotą pasiūlymą.</p>
+            <div class="step__img"><video src="assets/video/architects.mp4" poster="assets/video/posters/architects.jpg" muted loop playsinline preload="none" data-autoplay></video></div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step__num">02</span>
+          <div>
+            <h3>Projektavimas ir leidimai</h3>
+            <p>Architektūros ir inžinerinių sistemų projektavimas, rinkos analizė, aplinkosaugos aspektai. Pasirūpiname, kad visi leidimai ir dokumentai būtų gauti prieš pradedant darbus.</p>
+            <div class="step__img"><video src="assets/video/blueprint.mp4" poster="assets/video/posters/blueprint.jpg" muted loop playsinline preload="none" data-autoplay></video></div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step__num">03</span>
+          <div>
+            <h3>Statyba ir generalinė ranga</h3>
+            <p>Pamatai, konstrukcijos, stogas, vidaus apdaila, inžinerinės sistemos: elektra, šildymas, vėdinimas, vandentiekis. Koordinuojame subrangovus ir tiekėjus, griežtai laikomės terminų.</p>
+            <div class="step__img"><video src="assets/video/concrete.mp4" poster="assets/video/posters/concrete.jpg" muted loop playsinline preload="none" data-autoplay></video></div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step__num">04</span>
+          <div>
+            <h3>Perdavimas, aplinka ir garantija</h3>
+            <p>Galutiniai kokybės patikrinimai, aplinkos sutvarkymas ir objekto perdavimas užsakovui.</p>
+            <div class="step__img"><video src="assets/video/builders.mp4" poster="assets/video/posters/builders.jpg" muted loop playsinline preload="none" data-autoplay></video></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Vykdomi projektai: Scrolling Text juosta -->
+<section class="section section--ink theme-dark section--tight">
+  <div class="container">
+    <div class="section-head" style="margin-bottom:2.2rem">
+      <div class="section-head__main">
+        <p class="eyebrow" data-reveal="fade">Statoma dabar</p>
+        <h2 data-split>Vykdomi <em>projektai</em></h2>
+      </div>
+      <div class="section-head__aside" data-reveal><a class="btn btn--light" href="vykdomi-projektai.html">Visi vykdomi projektai <svg class="i i--arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </div>
+  <div class="marquee" aria-label="Vykdomų projektų sąrašas">
+    <div class="marquee__track">
+{{projects:marquee}}
+    </div>
+  </div>
+</section>
+
+<!-- Sertifikatai (eilutės be ikonų) + karjera -->
+<section class="section section--sand">
+  <div class="container split split--top">
+    <div>
+      <p class="eyebrow" data-reveal="fade">Standartai</p>
+      <h2 data-split>Sertifikuota <em>kokybė</em></h2>
+      <p class="lead" data-reveal>Įmonės veikla grindžiama tarptautiniais standartais. Griežtai jų laikantis užtikrinama, kad kiekvienas projektas būtų įgyvendintas pagal aukščiausius darbo procesų ir saugumo reikalavimus.</p>
+      <div class="rows" data-reveal style="margin-top:2rem">
+        <a class="row" href="sertifikatai.html#iso-9001"><span class="row__k">ISO 9001:2015</span><span class="row__v">Kokybės vadybos sistema: skaidrūs procesai, nuolatinis tobulinimas</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="row" href="sertifikatai.html#iso-14001"><span class="row__k">ISO 14001:2015</span><span class="row__v">Aplinkos apsaugos vadyba: mažesnis poveikis aplinkai, taupūs ištekliai</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="row" href="sertifikatai.html#iso-45001"><span class="row__k">ISO 45001:2018</span><span class="row__v">Darbuotojų saugos ir sveikatos vadyba kiekviename objekte</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="row" href="sertifikatai.html#atestatas"><span class="row__k">Atestatas</span><span class="row__v">Teisė būti ypatingo statinio statybos rangovu</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="row" href="sertifikatai.html#gazele"><span class="row__k">Gazelė 2016</span><span class="row__v">Tarp sparčiausiai augančių bendrovių Lietuvoje</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="panel theme-dark" data-reveal="right">
+      <p class="eyebrow">Karjera</p>
+      <h3 class="h2">Prisijunk prie <em>komandos</em></h3>
+      <p>Visada ieškome naujų kolegų, kurie būtų ambicingi ir norėtų augti kartu su mumis. Nuolatinis darbas visus metus, nepriklausomai nuo sezono.</p>
+      <div class="jobs" style="margin:1.6rem 0">
+        <a class="job" href="karjera.html#staliai"><div><h3>Staliai / stalių brigados</h3><p>Vidaus įrengimo darbai · 1000–1600 € „į rankas“</p></div><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="job" href="karjera.html#betonuotojai"><div><h3>Betonuotojai / betonuotojų brigados</h3><p>Rostverkai, perdangos, sienos · 1000–1600 € „į rankas“</p></div><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="job" href="karjera.html#pagalbiniai"><div><h3>Pagalbiniai darbininkai</h3><p>Statybos objektuose Vilniuje · 800–1000 € „į rankas“</p></div><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <a class="btn btn--orange" href="karjera.html">Visi skelbimai ir anketa <svg class="i i--arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>

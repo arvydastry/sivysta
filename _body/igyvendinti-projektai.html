@@ -1,0 +1,30 @@
+<!--meta {"title": "Įgyvendinti projektai | SiVySta", "description": "Įgyvendinti SiVySta projektai pagal paskirtį: gyvenamieji, komerciniai, pramoniniai, gydymo įstaigų, kultūros paveldo ir visuomeniniai objektai Lietuvoje ir užsienyje.", "nav": "projektai", "body_class": "page-igyvendinti", "header": "transparent", "og_image": "assets/img/projects/vienbutis-gelezinio-vilko.jpg"} -->
+
+<section class="page-hero page-hero--short theme-dark" data-parallax-ref>
+  <div class="page-hero__media"><img src="assets/img/projects/vienbutis-gelezinio-vilko.jpg" alt="" data-parallax="0.2"></div>
+  <div class="container page-hero__content">
+    <nav class="breadcrumbs" aria-label="Kelias"><ol><li><a href="index.html">Pradžia</a></li><li><a href="projektai.html">Projektai</a></li><li aria-current="page">Įgyvendinti</li></ol></nav>
+    <p class="eyebrow">Portfelis</p>
+    <h1 class="page-hero__title" data-split>Įgyvendinti <em>projektai</em></h1>
+    <p class="page-hero__lead" data-reveal>Baigti objektai Lietuvoje, Belgijoje ir Estijoje. Pasirinkite kategoriją.</p>
+  </div>
+</section>
+
+<section class="section" data-filter-root>
+  <div class="container">
+    <div class="filter" role="group" aria-label="Filtras pagal paskirtį" data-reveal="fade">
+      <button class="filter__btn is-active" type="button" data-filter="*">Visi <span class="n"></span></button>
+      <button class="filter__btn" type="button" data-filter="gyvenamieji">Gyvenamieji <span class="n"></span></button>
+      <button class="filter__btn" type="button" data-filter="komerciniai">Komerciniai <span class="n"></span></button>
+      <button class="filter__btn" type="button" data-filter="pramoniniai">Pramoniniai <span class="n"></span></button>
+      <button class="filter__btn" type="button" data-filter="gydymo">Gydymo įstaigos <span class="n"></span></button>
+      <button class="filter__btn" type="button" data-filter="paveldas">Kultūros paveldo <span class="n"></span></button>
+      <button class="filter__btn" type="button" data-filter="visuomeniniai">Visuomeniniai <span class="n"></span></button>
+    </div>
+    <div class="pgrid" data-stagger="0.05">
+{{projects:done}}
+    </div>
+    <div class="empty">Šioje kategorijoje projektų kol kas nėra.</div>
+    <p class="muted small" style="margin-top:2rem">Nuotraukos iš dabartinės sivysta.lt svetainės. Paspaudus nuotrauką atidaroma galerija.</p>
+  </div>
+</section>
