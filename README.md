@@ -9,6 +9,8 @@ Dizaino kryptis: solidi, pasitikėjimą kelianti įmonė su ilgalaike patirtimi 
 
 ## Kaip peržiūrėti
 
+- **Gyvai:** <https://arvydastry.github.io/sivysta/> (GitHub Pages iš `main` šakos, saugykla <https://github.com/arvydastry/sivysta>; `noindex`, paieškos sistemos neindeksuoja).
+  Atnaujinimas: `python3 build.py` (0 įspėjimų), tada `git commit` ir `git push`; Pages persirenka per ~1 min.
 - Vietinis serveris: `python3 tools/serve.py` ir atidaryti <http://localhost:8141/> (tas pats nustatyta `.claude/launch.json`). Serveris palaiko HTTP Range, be jo `<video>` klipai naršyklėje nepersuka ir nesikartoja (`python3 -m http.server` netinka).
 - Veikia ir atidarius `index.html` tiesiai iš `file://` (šriftai iš Google Fonts, be interneto bus sisteminis šriftas).
 - Viršuje tamsi „Demo maketas“ juosta su nuorodomis į visus puslapius (į WordPress neperkeliama).
