@@ -1,3 +1,5 @@
+/* Kai demo rodomas iframe (pvz., simplex.lt demo kortelėje), slapukų juostos nerodome. */
+if (window.self !== window.top) document.head.insertAdjacentHTML('beforeend', '<style>.cookie{display:none!important}</style>');
 /* SiVySta maketas – bendras JS (vanilla). Kiekvienas blokas turi Salient atitikmenį (komentaruose). */
 (function () {
   'use strict';
